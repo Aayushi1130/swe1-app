@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 gunicorn
+=======
+gunicorn
+>>>>>>> adf5822c86b4b40b740343c06ecd77ff788bcd1c
 django-heroku
