@@ -15,7 +15,6 @@ from django.core.asgi import get_asgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
 
 application = get_asgi_application()
-=======
 """
 ASGI config for mysite project.
 
@@ -32,4 +31,3 @@ from django.core.asgi import get_asgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
 
 application = get_asgi_application()
->>>>>>> adf5822c86b4b40b740343c06ecd77ff788bcd1c
