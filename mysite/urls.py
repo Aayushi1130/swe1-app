@@ -23,7 +23,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('django.contrib.auth'))
 ]
-=======
 """mysite URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -46,4 +45,3 @@ urlpatterns = [
 	path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
 ]
->>>>>>> adf5822c86b4b40b740343c06ecd77ff788bcd1c
