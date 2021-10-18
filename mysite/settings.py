@@ -128,9 +128,6 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
-
-=======
 """
 Django settings for mysite project.
 
@@ -260,6 +257,4 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-
->>>>>>> adf5822c86b4b40b740343c06ecd77ff788bcd1c
 django_heroku.settings(locals())
