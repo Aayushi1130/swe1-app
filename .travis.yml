@@ -4,3 +4,9 @@ language:
   - python
 before-install:
   - pip install -r requirements.txt
+  - pip install black
+  - pip install coveralls
+script:
+  - black --check
+after_success:
+  - coveralls
