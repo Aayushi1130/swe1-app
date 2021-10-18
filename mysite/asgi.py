@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 """
 ASGI config for mysite project.
 
