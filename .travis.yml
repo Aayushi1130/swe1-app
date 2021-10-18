@@ -1,0 +1,11 @@
+language: python
+python:
+  - "2.7"
+  - "3.6"      # current default Python on Travis CI
+  - "pypy"   # currently Python 2.7.13, PyPy 7.1.1
+  - "pypy3"  # currently Python 3.6.1,  PyPy 7.1.1-beta0
+before_install:
+  - python -m pip install --upgrade pip
+install:
+  - pip install --user -r requirements.txt --use-feature=2020-resolver
+script: pytest
