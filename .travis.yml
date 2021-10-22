@@ -4,19 +4,10 @@ install:
   - pip install -r requirements.txt
   - pip install black
   - pip install flake8
-<<<<<<< HEAD
 before_script: 
   - python manage.py migrate
 script:
   - black .
   - flake8 --max-line-length=92
 after_script:
-=======
-script:
-  - black --check .
-  - flake8 --max-line-length=100
-
-#  - coverage run --source=home manage.py test home
-after_success:
->>>>>>> 6737c335df361619b9aa366bbdc2c4f3a05098d6
   - coveralls
